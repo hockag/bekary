@@ -1,0 +1,123 @@
+.menu {
+    width: 100%;
+    height: 775px;
+    background: #202023;
+}
+
+.menu h2 {
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+    padding-top: 21px;
+}
+
+
+.menu_item {
+    width: 328px;
+    height: 229px;
+    border: 1px solid #FFF;
+}
+
+.menu_list {
+    display: flex;
+    flex-flow: wrap;
+    width: 860px;
+    margin: 0 auto;
+    gap: 60px 200px;
+    padding-top: 35px;
+}
+
+.menu_item-img img {
+    padding: 14px 0 0 20px;
+}
+
+.menu_item-name h3 {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.menu_item-button button {
+    width: 160px;
+    height: 41px;
+    border-radius: 17px;
+    background: #B47B48;
+    border: none;
+    outline: none;
+    margin-top: 7px;
+}
+
+.menu_item-btn {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu_item-btn:hover {
+    transform: translateY(-2px);
+}
+
+.menu_item-btn:active {
+    transform: translateY(3px);
+}
+
+.menu_item-button {
+    display: flex;
+    justify-content: center;
+}
+
+.menu_item-img-2 img {
+    width: 328px;
+    height: 195px;
+}
+
+.menu_item-name-2 h3 {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.menu_item-img img {
+    height: 195px;
+}
+
+.menu_item-img-4 img {
+    padding-left: 50px;
+    width: 242px;
+}
+
+.menu_item-name-4 h3 {
+    margin: 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu_item-img-3 img {
+    padding-left: 60px;
+    width: 256px;
+}
