@@ -1,0 +1,17 @@
+.quality {
+    opacity: 0.5;
+    background: black;
+    height: 852px;
+}
+
+.quality h2 {
+    margin: 0;
+    font-family: 'Italiana', serif;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: right;
+    padding: 90px 350px 0 0;
+}
