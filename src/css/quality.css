@@ -1,4 +1,41 @@
 .quality {
-    background: url("../img/quality.png");
-    height: 650px;
+    background: #202023 ;
+    height: 852px;
 }
+
+.quality_title h2 {
+    margin: 0;
+    color: #FFF;
+    text-align: right;
+    padding: 0 550px 50px 0;
+    font-family: 'Italiana', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quality_image {
+    background: url("../img/quality.png");
+    height: 710px;
+}
+
+.quality_image-first-card_img img {
+    padding: 0 0 0 435px;
+    position: absolute;
+    top: 196%;
+}
+
+.quality_image-first-card_title {
+    width: 200px;
+    height: 150px;
+    background: rgba(242, 242, 242, 0.30);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(18px);
+}
+
+.quality_image-first-card_title ol {
+    margin: 0;
+    padding: 26px 0 0 13px;
+}
+
