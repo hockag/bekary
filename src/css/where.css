@@ -31,6 +31,8 @@
 .where_left ul {
     display: flex;
     flex-direction: column;
+    padding: 50px 0 0 0;
+    gap: 60px;
 }
 
 .where_left h3 {
@@ -71,15 +73,7 @@
     font-weight: 200;
     line-height: normal;
     font-family: 'Inter', sans-serif;
-}
-
-.where_left_item a:nth-child(1) {
-    color: #FFF;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    font-family: 'Inter', sans-serif;
+    padding-top: 40px;
 }
 
 .where_left_item a {
@@ -90,3 +84,4 @@
     line-height: normal;
     font-family: 'Inter', sans-serif;
 }
+
