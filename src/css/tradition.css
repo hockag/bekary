@@ -1,0 +1,38 @@
+.tradition {
+    background: url("../img/photo_2022-06-23_21-45-36 1.png") no-repeat;
+    height: 580px;
+    width: 100%;
+    background-size: cover;
+}
+
+.tradition h2 {
+    color: #D9D9D9;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Italiana', serif;
+    margin: 0;
+    width: 735px;
+    padding: 55px 0 0 0;
+}
+
+.tradition_list {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+
+.tradition_item h5 {
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding-top: 10px;
+}

@@ -1,0 +1,92 @@
+.where {
+    background: #202023;
+    height: 704px;
+    width: 100%;
+}
+
+.where h2 {
+    margin: 0;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Italiana', serif;
+    padding: 66px 0 0 0;
+}
+
+.image_where {
+    margin: 44px 0 0 0;
+}
+
+.where_wrapper {
+    display: flex;
+}
+
+.right_side_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.where_left ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.where_left h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+
+.where_left {
+    padding: 51px 0 0 130px;
+}
+
+.where_right {
+    padding: 51px 0 0 130px;
+}
+
+.where_right h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.where_right h5 {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.where_left_item a:nth-child(1) {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.where_left_item a {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
