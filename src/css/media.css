@@ -137,7 +137,48 @@
     }
 }
 
-@media(min-width: 576px) {
+@media(max-width: 576px) {
+    .container {
+        min-width: 540px;
+    }
+
+    .shop h2 {
+        font-size: 60px;
+    }
+
+    .shop p {
+        font-size: 17px;
+    }
+
+    .quality_title h2 {
+        padding: 0 0 30px 0;
+        text-align: center;
+    }
+
+    .tradition {
+        background: #202023;
+        height: 1000px;
+    }
+
+    .tradition_list {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .tradition_item {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .right_side_info {
+        padding-top: 50px;
+    }
+
+    .footer_box {
+        width: 80%;
+    }
 
 }
 

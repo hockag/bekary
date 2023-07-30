@@ -85,3 +85,7 @@
     font-family: 'Inter', sans-serif;
 }
 
+.image_where iframe {
+    width: 535px;
+    height: 487px;
+}
