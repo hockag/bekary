@@ -180,8 +180,48 @@
         width: 80%;
     }
 
+    .tradition h2 {
+        margin: 0;
+    }
+
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
+    .container {
+        min-width: 100%;
+    }
 
+    .shop_list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .shop h2 {
+        font-size: 35px;
+    }
+
+    .shop p {
+        font-size: 15px;
+        width: auto;
+    }
+
+    .menu_item {
+        width: 310px;
+    }
+
+    .tradition h2 {
+        font-size: 10vw;
+        width: auto;
+        text-align: center;
+    }
+
+    .image_where iframe {
+        width: auto;
+        height: 400px;
+    }
+
+    .right_side_info {
+        width: 85%;
+    }
 }
