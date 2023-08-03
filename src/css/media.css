@@ -224,4 +224,12 @@
     .right_side_info {
         width: 85%;
     }
+
+    .footer_box {
+        flex-direction: column;
+    }
+
+    .footer_item-1, .footer_item-2, .footer_item-3 {
+        margin: 0 auto;
+    }
 }
