@@ -1,6 +1,6 @@
 @media(max-width:992px) {
     .container {
-        min-width: 960px;
+        max-width: 960px;
     }
 
     .nav_shop {
@@ -60,7 +60,7 @@
 
 @media(max-width: 768px) {
     .container {
-        min-width: 720px;
+        max-width: 720px;
     }
 
     .shop {
@@ -139,7 +139,7 @@
 
 @media(max-width: 576px) {
     .container {
-        min-width: 540px;
+        max-width: 540px;
     }
 
     .shop h2 {
@@ -188,7 +188,7 @@
 
 @media screen and (max-width: 320px) {
     .container {
-        min-width: 100%;
+        max-width: 100%;
     }
 
     .shop_list {
