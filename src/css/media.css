@@ -1,6 +1,6 @@
 @media(max-width:992px) {
     .container {
-        max-width: 960px;
+        min-width: 960px;
     }
 
     .nav_shop {
@@ -60,7 +60,7 @@
 
 @media(max-width: 768px) {
     .container {
-        max-width: 720px;
+        min-width: 720px;
     }
 
     .shop {
@@ -139,7 +139,7 @@
 
 @media(max-width: 576px) {
     .container {
-        max-width: 540px;
+        min-width: 540px;
     }
 
     .shop h2 {
@@ -188,7 +188,12 @@
 
 @media screen and (max-width: 320px) {
     .container {
-        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .shop_card-list {
+        flex-direction: column;
+        margin: 0 auto;
     }
 
     .shop_list {
@@ -232,5 +237,9 @@
 
     .footer {
         height: 795px;
+    }
+
+    .quatity_list {
+        flex-direction: column;
     }
 }
