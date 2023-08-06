@@ -90,3 +90,51 @@
         height: 510px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .shop_item a {
+        font-size: 21px;
+    }
+
+    .shop_list {
+        width: 530px;
+    }
+
+    .shop h2 {
+        font-size: 65px;
+    }
+
+    .shop p {
+        font-size: 20px;
+    }
+
+    .quatity_list {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .quality {
+        height: 1220px;
+    }
+
+    .tradition {
+        background: #202023;
+        height: 1130px;
+    }
+
+    .tradition_list {
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .footer_box {
+        width: 86%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
