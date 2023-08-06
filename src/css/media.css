@@ -1,0 +1,64 @@
+@media screen and (max-width: 992px) {
+    .nav_shop {
+        display: flex;
+        justify-content: center;
+    }
+
+    .shop h2 {
+        text-align: center;
+    }
+
+    .shop p {
+        text-align: center;
+        width: 570px;
+        margin: 0 auto;
+    }
+
+    .shop_button {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shop {
+        background: #202023;
+        height: 1500px;
+    }
+
+    .shop_card-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .quatity_list {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .tradition_list {
+        width: 85%;
+    }
+
+    .quality {
+        height: 775px;
+    }
+
+    .where_wrapper {
+        flex-direction: column;
+    }
+
+    .where {
+        height: 1050px;
+    }
+
+    .right_side_info {
+        width: 80%;
+    }
+
+    .image_where iframe {
+        display: flex;
+        margin: 0 auto;
+    }
+}
