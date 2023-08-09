@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1199px) {
     .container {
-        max-width: 960px;
+        max-width: 1011px;
         margin: 0 auto;
     }
 }
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 768px) {
     .container {
-        max-width: 540px;
+        max-width: 720px;
         margin: 0 auto;
     }
     .menu_list {
@@ -142,6 +142,33 @@
 
     .footer {
         height: 510px;
+    }
+
+    .shop {
+        height: 1580px;
+    }
+
+    .quality_title h2 {
+        text-align: center;
+    }
+
+    .quatity_list {
+        width: auto;
+        margin: 0;
+    }
+
+    .quality {
+        height: 1270px;
+    }
+
+    .tradition {
+        background: #202023;
+        height: 1000px;
+    }
+
+    .tradition_list {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
