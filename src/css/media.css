@@ -9,12 +9,22 @@
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1024px) {
     .container {
-        max-width: 1011px;
+        max-width: 980px;
         margin: 0 auto;
     }
+
+    .where_left {
+        padding: 51px 0 0 70px;
+    }
+
+    .where_right {
+        padding: 51px 0 0 70px;
+    }
 }
+
+
 @media screen and (max-width: 992px) {
     .container {
         max-width: 720px;
@@ -174,7 +184,7 @@
 
 @media screen and (max-width: 576px) {
     .container {
-        max-width: 100%;
+        max-width: 540px;
         margin: 0 auto;
     }
     .shop_item a {
@@ -219,4 +229,75 @@
         width: 86%;
     }
     
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .shop_list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .shop h2 {
+        font-size: 41px;
+    }
+
+    .shop p {
+        width: auto;
+        font-size: 18px;
+    }
+
+    .shop {
+        height: 1700px;
+    }
+
+    .menu_item {
+        width: 310px;
+    }
+
+    .quality_title h2 {
+        font-size: 55px;
+    }
+
+    .tradition h2 {
+        font-size: 10vw;
+        width: auto;
+        text-align: center;
+    }
+
+    .image_where iframe {
+        width: auto;
+        height: auto;
+    }
+
+    .where_left {
+        padding: 51px 0 0 20px;
+    }
+
+    .where_right {
+        padding: 51px 0 0 0;
+    }
+
+    .footer_box {
+        width: auto;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .footer {
+        height: 800px;
+    }
+
+    .where {
+        height: 800px;
+    }
+
+    .footer h2 {
+        font-size: 38px;
+    }
 }
