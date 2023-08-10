@@ -236,6 +236,40 @@
         max-width: 100%;
         margin: 0 auto;
     }
+
+    .shop p {
+        width: auto;
+    }
+
+    .tradition h2 {
+        width: auto;
+        font-size: 36px;
+    }
+
+    .image_where iframe {
+        width: auto;
+    }
+
+    .where_left {
+        padding: 0;
+    }
+
+    .where_right {
+        padding: 0;
+    }
+
+    .right_side_info {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .footer_box {
+        text-align: center;
+    }
+
+    .footer {
+        height: 537px;
+    }
 }
 
 @media screen and (max-width: 320px) {
