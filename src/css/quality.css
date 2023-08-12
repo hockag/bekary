@@ -1,23 +1,23 @@
 .quality {
     background: #202023;
-    height: 1500px;
+    height: 852px;
 }
 
-/*.quality_image {*/
-/*    background: url("../img/quality.png");*/
-/*    height: 1500px;*/
-/*}*/
+.quality_image {
+    background: url("../img/quality.png") 10px 70px/cover no-repeat;
+}
 
-.quality_title h2 {
+.quality_title {
     margin: 0;
     color: #FFF;
-    text-align: right;
-    padding: 0 550px 50px 0;
     font-family: 'Italiana', serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: absolute;
+    top: 0;
+    left: 50%;
 }
 
 .quality_incredians-list {
@@ -41,4 +41,18 @@
 .quatity_list {
     display: flex;
     justify-content: space-between;
+    height: 709px;
+}
+
+.quality_item:nth-child(2) {
+    align-self: center;
+
+}
+
+.quality_item:nth-child(3) {
+    align-self: flex-end;
+}
+
+.quality .container {
+    position: relative;
 }

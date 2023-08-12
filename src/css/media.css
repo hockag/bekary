@@ -4,9 +4,6 @@
         margin: 0 auto;
     }
 
-    .quality {
-        height: 735px;
-    }
 }
 
 @media screen and (max-width: 1024px) {
