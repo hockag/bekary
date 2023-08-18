@@ -191,7 +191,26 @@
     .hamburger {
         display: none;
     }
+
+    .quality_title {
+        position: static;
+        text-align: center;
+    }
+
+    .quality_image {
+        background: #202023;
+    }
+
+    .quality_item:nth-child(3) {
+        align-self: center;
+    }
+
+    .quality_item img {
+        width: 280px;
+        height: 270px;
+    }
 }
+
 
 @media screen and (max-width: 576px) {
     .container {
@@ -308,6 +327,10 @@
     }
     .menu_active {
         left: 0;
+    }
+
+    .quality {
+        height: 1350px;
     }
 }
 
@@ -451,6 +474,14 @@
     }
     .menu_active {
         left: 0;
+    }
+
+    .menu_item-img-2>img {
+        width: 310px;
+    }
+
+    .quality_item>img {
+        width: 315px;
     }
 
 }
