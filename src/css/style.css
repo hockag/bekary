@@ -21,3 +21,24 @@ a {
     text-decoration: none;
 }
 
+.scroll-on-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    width: 80px;
+    height: 80px;
+}
+
+.scroll-on-top a {
+    position: relative;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
